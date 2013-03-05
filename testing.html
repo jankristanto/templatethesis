@@ -25,9 +25,9 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="repository.html">Repository</a></li>
-                <li><a href="testing.html">Services</a></li>
+                <li class="active"><a href="#">Services</a></li>
                 <li><a href="#">Comparison</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
@@ -36,33 +36,64 @@
           </div>
         </div><!-- /.navbar -->
       </div>
-
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Sentiment Analysis</h1>
-        <p class="lead">Twitter Sentiment Analysis using unsupervise and supervise learning</p>
-        <a href="testing.html" class="btn btn-large btn-success">Wanna Try?</a>
+	  <!-- Example row of columns -->
+      <div class="text-center" class="row-fluid">
+			<h2>Enter Keyword...</h2>
+			<form class="form-search">
+				<input type="text" placeholder="enter keyword..." class="input-big">
+				<button type="submit" class="btn btn-primary">Search</button>
+			</form>
+        
+        
       </div>
-
-      <hr>
-
-      <!-- Example row of columns -->
-      <div class="row-fluid">
-        <div class="span4">
-          <h2>Service</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a href="testing.html" class="btn">View details »</a></p>
+	  <div class="row-fluid">
+		<div class="span4">
+          <h2>Positive</h2>
+          <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th>#</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
         </div>
         <div class="span4">
-          <h2>Comparison</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a href="#" class="btn">View details »</a></p>
+          <h2>Neutral</h2>
+          <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th>#</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
        </div>
         <div class="span4">
-          <h2>About</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <p><a href="#" class="btn">View details »</a></p>
+          <h2>Negative</h2>
+          <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th>#</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
         </div>
+        
+        
       </div>
 
       <hr>

@@ -1089,9 +1089,10 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+
 .uneditable-input {
   display: inline-block;
-  height: 20px;
+  height: 40px;
   padding: 4px 6px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -3193,7 +3194,7 @@ button.close {
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 35px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
